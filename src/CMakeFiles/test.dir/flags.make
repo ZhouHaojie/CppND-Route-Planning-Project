@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src -isystem /home/zhouhaojie/Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/zhouhaojie/Route-Planning-Project/thirdparty/googletest/googletest 
 

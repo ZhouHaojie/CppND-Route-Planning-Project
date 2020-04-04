@@ -60,10 +60,10 @@ RM = /home/zhouhaojie/cmake-3.17.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhouhaojie/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/zhouhaojie/Route-Planning-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhouhaojie/CppND-Route-Planning-Project/src
+CMAKE_BINARY_DIR = /home/zhouhaojie/Route-Planning-Project/src
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OSM_A_star_search.dir/depend.make
@@ -76,68 +76,68 @@ include CMakeFiles/OSM_A_star_search.dir/flags.make
 
 CMakeFiles/OSM_A_star_search.dir/main.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OSM_A_star_search.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/main.cpp.o -c /home/zhouhaojie/CppND-Route-Planning-Project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OSM_A_star_search.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/main.cpp.o -c /home/zhouhaojie/Route-Planning-Project/src/main.cpp
 
 CMakeFiles/OSM_A_star_search.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/CppND-Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/main.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/CppND-Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/main.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/model.cpp.o: model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSM_A_star_search.dir/model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/model.cpp.o -c /home/zhouhaojie/CppND-Route-Planning-Project/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSM_A_star_search.dir/model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/model.cpp.o -c /home/zhouhaojie/Route-Planning-Project/src/model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/CppND-Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/CppND-Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/render.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/render.cpp.o: render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OSM_A_star_search.dir/render.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/render.cpp.o -c /home/zhouhaojie/CppND-Route-Planning-Project/src/render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OSM_A_star_search.dir/render.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/render.cpp.o -c /home/zhouhaojie/Route-Planning-Project/src/render.cpp
 
 CMakeFiles/OSM_A_star_search.dir/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/CppND-Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/render.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/render.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/CppND-Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/render.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/render.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o: route_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o -c /home/zhouhaojie/CppND-Route-Planning-Project/src/route_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/route_model.cpp.o -c /home/zhouhaojie/Route-Planning-Project/src/route_model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/route_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/route_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/CppND-Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/route_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/route_model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/route_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/route_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/CppND-Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/route_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/route_model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o: route_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o -c /home/zhouhaojie/CppND-Route-Planning-Project/src/route_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.o -c /home/zhouhaojie/Route-Planning-Project/src/route_planner.cpp
 
 CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/CppND-Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouhaojie/Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/CppND-Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouhaojie/Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/route_planner.cpp.s
 
 # Object files for target OSM_A_star_search
 OSM_A_star_search_OBJECTS = \
@@ -174,7 +174,7 @@ OSM_A_star_search: /usr/lib/x86_64-linux-gnu/libexpat.so
 OSM_A_star_search: /usr/lib/x86_64-linux-gnu/liblzma.so
 OSM_A_star_search: /usr/lib/x86_64-linux-gnu/libX11.so
 OSM_A_star_search: CMakeFiles/OSM_A_star_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OSM_A_star_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhouhaojie/Route-Planning-Project/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OSM_A_star_search"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSM_A_star_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +187,6 @@ CMakeFiles/OSM_A_star_search.dir/clean:
 .PHONY : CMakeFiles/OSM_A_star_search.dir/clean
 
 CMakeFiles/OSM_A_star_search.dir/depend:
-	cd /home/zhouhaojie/CppND-Route-Planning-Project/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhouhaojie/CppND-Route-Planning-Project /home/zhouhaojie/CppND-Route-Planning-Project /home/zhouhaojie/CppND-Route-Planning-Project/src /home/zhouhaojie/CppND-Route-Planning-Project/src /home/zhouhaojie/CppND-Route-Planning-Project/src/CMakeFiles/OSM_A_star_search.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhouhaojie/Route-Planning-Project/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhouhaojie/Route-Planning-Project /home/zhouhaojie/Route-Planning-Project /home/zhouhaojie/Route-Planning-Project/src /home/zhouhaojie/Route-Planning-Project/src /home/zhouhaojie/Route-Planning-Project/src/CMakeFiles/OSM_A_star_search.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OSM_A_star_search.dir/depend
 

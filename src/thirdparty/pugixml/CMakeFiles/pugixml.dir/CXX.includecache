@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
 
-/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
+/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
 pugixml.hpp
-/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -38,9 +38,9 @@ new
 stdint.h
 -
 
-/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
 pugiconfig.hpp
-/home/zhouhaojie/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/zhouhaojie/Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
 stddef.h
 -
 exception
